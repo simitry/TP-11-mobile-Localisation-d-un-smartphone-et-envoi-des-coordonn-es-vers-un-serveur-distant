@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Localisation Smartphone"
+            android:textColor="@color/text_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/panel"
+            android:padding="14dp"
+            android:text="Aucune position détectée"
+            android:textColor="@color/text_dark"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btnStartGps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Démarrer la localisation" />
+
+        <Button
+            android:id="@+id/btnSaveFake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tester avec une position simulée" />
+
+        <Button
+            android:id="@+id/btnSendLast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer la dernière position au serveur" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/panel"
+            android:padding="14dp"
+            android:text="SQLite local prêt."
+            android:textColor="@color/text_soft"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>

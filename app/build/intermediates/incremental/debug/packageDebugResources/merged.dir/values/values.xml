@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#1565C0</color>
+    <color name="green">#2E7D32</color>
+    <color name="panel_bg">#FFFFFF</color>
+    <color name="red">#C62828</color>
+    <color name="screen_bg">#F5F7FA</color>
+    <color name="text_dark">#202124</color>
+    <color name="text_soft">#5F6368</color>
+    <string name="app_name">LocalisationSmartphone</string>
+    <string name="new_location">Nouvelle position : Latitude = %1$s, Longitude = %2$s, Altitude = %3$s, précision = %4$s mètres</string>
+    <string name="provider_disabled">Le fournisseur %s est désactivé</string>
+    <string name="provider_enabled">Le fournisseur %s est activé</string>
+    <string name="provider_new_status">Le fournisseur %1$s a un nouveau statut : %2$s</string>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/screen_bg</item>
+        <item name="android:navigationBarColor">@color/screen_bg</item>
+    </style>
+</resources>

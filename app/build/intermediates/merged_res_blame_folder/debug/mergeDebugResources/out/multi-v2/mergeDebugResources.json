@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.localisationsmartphone.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Simitry\\Desktop\\lab1\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,4,2,5,1,6,7",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "103,142,60,182,16,220,264",
+                        "endColumns": "38,39,42,37,43,43,43",
+                        "endOffsets": "137,177,98,215,55,259,303"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,134,177,215,259,303",
+                        "endColumns": "38,39,42,37,43,43,43",
+                        "endOffsets": "89,129,172,210,254,298,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Simitry\\Desktop\\lab1\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "791",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "1138"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Simitry\\Desktop\\lab1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,5,3,2,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "16,323,150,76,228",
+                        "endColumns": "59,136,77,73,94",
+                        "endOffsets": "71,455,223,145,318"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "347,407,544,622,696",
+                        "endColumns": "59,136,77,73,94",
+                        "endOffsets": "402,539,617,691,786"
+                    }
+                }
+            ]
+        }
+    ]
+}

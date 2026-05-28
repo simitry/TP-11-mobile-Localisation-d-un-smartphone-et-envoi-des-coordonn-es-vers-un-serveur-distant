@@ -1,0 +1,21 @@
+com.example.localisationsmartphone
+color blue
+color green
+color panel_bg
+color red
+color screen_bg
+color text_dark
+color text_soft
+drawable panel
+id btnSaveFake
+id btnSendLast
+id btnStartGps
+id tvInfo
+id tvStatus
+layout activity_main
+string app_name
+string new_location
+string provider_disabled
+string provider_enabled
+string provider_new_status
+style AppTheme
